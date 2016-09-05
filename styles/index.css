@@ -11,13 +11,13 @@ h1{
 h1:hover {
   transform: scale(1,2) skew(-10deg);
   color:red;
-} //scale
+}//scale
 
 .paragraf{
   color : white;
   width: 600px;
   text-align: justify;
-}
+}//ratakanankiri
 
 a{
    color : orange;
