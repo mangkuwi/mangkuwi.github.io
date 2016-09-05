@@ -13,9 +13,19 @@ h1:hover {
   color:red;
 }
 
+h3{
+  color: white;
+}
+
 .paragraf{
   color : white;
   width: 600px;
+  text-align: justify;
+}
+
+.paragraf2{
+  color : white;
+  width: 1000px;
   text-align: justify;
 }
 
