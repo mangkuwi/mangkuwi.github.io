@@ -8,20 +8,13 @@ h1{
 	color:white;
 }
 
-div{
+.paragraf{
   color : white;
+  width: 900px;
+  text-align: justify;
 }
 
 a{
   
   color : orange;
-}
-
-ul.contact li {
-	transition: all 1s;
-	@keyframes resize:  {
-		0% {padding: 0;}
-		50% {padding 0 10px;}
-		100% { padding: 0 30px; }
-	}
 }
