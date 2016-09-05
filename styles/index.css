@@ -11,13 +11,13 @@ h1{
 h1:hover {
   transform: scale(1,2) skew(-10deg);
   color:red;
-}//scale
+}
 
 .paragraf{
   color : white;
   width: 600px;
   text-align: justify;
-}//ratakanankiri
+}
 
 a{
    color : orange;
@@ -32,4 +32,4 @@ a{
 	@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 	@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-}//rotate
+}
