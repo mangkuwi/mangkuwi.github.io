@@ -1,12 +1,12 @@
 body { 
 
-	background-color: #509b9e;
+  background-color: #509b9e;
 
 }
 
 h1{
-	color:white;
-	transition: all 1s;
+  color:white;
+  transition: all 1s;
 }
 h1:hover {
   transform: scale(1,2) skew(-10deg);
@@ -34,12 +34,12 @@ a{
 }
 
 #putar1{
-	position: absolute;
+  position: absolute;
     -webkit-animation:spin 5s linear infinite;
     -moz-animation:spin 5s linear infinite;
     animation:spin 5s linear infinite;
 }
-	@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-	@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-	@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 }
