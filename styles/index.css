@@ -181,3 +181,40 @@ element.style {
     width: 90px;
     height: 90px;
 }
+.gambar3{
+    border: 2px solid #666;
+    border-top-color: rgb(102, 102, 102);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-right-color: rgb(102, 102, 102);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-color: rgb(102, 102, 102);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-color: rgb(102, 102, 102);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    width: 90px;
+    height: 90px;
+}
