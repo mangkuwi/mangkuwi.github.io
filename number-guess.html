@@ -11,15 +11,21 @@
 	console.log(jawaban);
 
 	while (coba != 5){
-		var input = prompt("masukan angka acak :");
-		if(input != jawaban){		
+		var input = prompt("sisa tebakan: "+(5-coba)+"\nmasukan angka acak :");
+			// alert("sisa tebakan"coba);
+		if(input != jawaban){
+			if(input < jawaban){
+				alert("angka lebih kecil dari jawaban");
+			}else{
+				alert("angka lebih besar dari jawaban");
+			}
 		}else {
 			alert("selamat atas kemenanganmu");
 			break;
 		}
 		coba++;
 		if(coba == 5){
-			alert("kurang beruntung");
+			alert("anda kurang beruntung");
 		}
 	}
 };
