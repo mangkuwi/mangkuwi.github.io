@@ -1,48 +1,57 @@
-<!doctyype html>
-
+<!doctype HTML>
 <html>
-	<head>
-
-		<title>My Profile</title> 
-		<meta charset="utf-8">
-		<meta name="description" content="Profil tentang diri saya">
-		<meta name="keywords" content="Hacktiv8,coding,faceboook,web">
-		<link rel="icon" type="image/x-icon" href="//favicon.ico">
-		<link href="styles/index.css" rel="stylesheet" type="text/css" media="screen">
-	</head>
-	
-	<body> 
-
-	<div>
-		<h1><left>About Me</left></h1>
-
-		<left><img src="images/me.jpg" alt="its me!" width="400px" height="400"></left> 
-		<p class="paragraf">	Halo Semuanya ! nama saya <b>Mangku Widodo</b> biasa dipanggil<i> mangku</i>
-			Saya mengikuti kursus di <a target="_blank" href="https://hacktiv8.com/">Hacktiv8</a> karena saya ingin belajar lebih tentang programing, saya yakin bergabung di <a target="_blank" href="https://hacktiv8.com/">Hacktiv8</a> bisa meningkatkan ilmu programing saya dan juga bisa mewujudkan impian saya.
-			Programmer favorit saya itu <b>BillGate</b> karena dia programmer yang bisa mengubah dunia untuk menggunakan product yang dia buat sendiri dan hampir seluruh dunia menggunakan <b>Microsoft</b>.</p>
-		<p class="paragraf">	Jika ingin menghubungi saya bisa melalui :</p> 
-
-			<ul id="contact"> 
-				<li><a id="putar1" href="mailto:mangkuwi26@gmail.com"><img src="images/logo.jpg" alt="my email" width="30" height="30"> </a></li>
-				<li><a id="putar1" target="_blank" href="https://www.facebook.com/M2Xu.sr"><img src="images/logofacebook.png" alt="my facebook" width="30" height="30"></a></li>
-			</ul>
-	</div>
-	<form>
-  		<fieldset>
-    		<legend>Personal Information</legend>
-			    <p>
-			      <label for="full-name">Full Name </label>
-			      <input name="full-name" type="text">
-			    </p>
-			    <p>
-			      <label for="email">Email Address</label>
-			      <input name="email" type="email">
-			    </p>
-			    <p>
-			      <label for="email">Pesan</label>
-			      <br><textarea cols="75" rows="5"></textarea>
-			    </p>
-	  	</fieldset>
-	</form>
-	</body>
+  <head>
+    <title>WebPage</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+<body>
+  <!-- header -->
+  <div class="header">
+      <h1 class="h1color">Mangku Webpage</h1>
+      <h2 class="h1color">Welcome everyone!</h2>
+  </div>
+  <!-- target and contact  -->
+  <div class="body">
+    <p>Hi, Im Mangku Widodo and this is my first webpage. Let's be a fullstack developer with Hacktiv8.</p>
+    <p>This is my target list:</p>
+    <ol>
+      <li>Being fullstack developer</li>
+      <li>Create a wonderful website</li>
+    </ol>
+    <p>This is my contact:</p>
+    <ul>
+      <li>Email mangkuwi26@gmail.com</li>
+      <li>Phone : 62 813 14961469</li>
+    </ul>
+ </div>
+  <!-- form input name, gender, and other -->
+  <div class="comment">
+    <h3>Leave your comment below</h3>
+  <form>
+    FirstName:<br>
+    <input type="text" name="firstname"><br>
+    LastName<br>
+    <input type="text" name="lastname"><br>
+    Gender<br>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"checked> Female<br>
+    <label>
+    Favorite Car:<br>
+    </label>
+    <select name="favoritecar" id="favoritecar">
+       <option value="volvo">Volvo</option>
+       <option value="bMW">BMW</option>
+       <option value="ferrari">Ferrari</option>
+       <option value="lamborghini">Lamborghini</option>
+    </select><br>
+    Language Spoken:<br>
+      <input type="checkbox" name="Language" value="Bahasa Indonesia" id="BahasaIndonesia"><label for="Bahasa Indonesia">Bahasa Indonesia</label><br>
+      <input type="checkbox" name="Language" value="English" id="English"><label for="English">English</label><br>
+      <input type="checkbox" name="Language" value="other" id="other"><label for="other">Other</label><br>
+    Bio:<br>
+    <textarea name="comment" form="usrform" cols="30" rows="10"></textarea><br>
+    <button type="submit" onclick="alert('Data Submitted!')">Submit</button>
+  </form>
+  </div>
+</body>
 </html>
