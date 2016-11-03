@@ -4,7 +4,7 @@ this is my first website on hacktiv8
 
 #Used Tags & Syntaxes
 
-**HTML**
+##**HTML**
 * Header
 * Order List
 * Unorder List
@@ -19,7 +19,7 @@ this is my first website on hacktiv8
 * Class
 * Id
 
-**CSS**
+##**CSS**
 * font-size
 * font-family
 * font-weight
