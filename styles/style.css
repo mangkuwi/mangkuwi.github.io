@@ -1,6 +1,12 @@
  body{
    background-color: darkorange;
    font-family: Arial, Courier, serif;
+   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-8/htmlcss1-img_bicycles.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+
  }
  h1{
    font-size: 40px;
@@ -23,6 +29,29 @@
  p, h3, h1{
    font-weight: bold;
  }
+ p{
+   font-size: 25px
+ }
+
+ img{
+   border-radius: 50%;
+   width: 300px;
+   height: 300px;
+   border: 5px solid;
+ }
+
+ table, th, td {
+    border: 1px solid black;
+ }
+ td{
+   font-size: 18px;
+   font-style: bold;
+ }
+ #tTD{
+   font-size: 28px;
+   color: crimson;
+   text-align: center;
+ }
 
  .header{
    background-color: yellow;
@@ -39,14 +68,17 @@
    line-height: 30px;
    margin: 80px;
    padding: 50px 50px 50px 50px;
+
  }
  .comment{
+   font-family: Courier;
    background-color: bisque;
    color: crimson;
    border-width:5px;
-   border-style:inset solid;
    float: right;
    padding: 50px;
    margin-right: -15px;
-
+   border-radius: 50px 0px 0px 50px ;
+   box-shadow: 0px 10px 0px 10px black;
+   background-image: -webkit-linear-gradient(#F6FE00, #4CFE00);
  }

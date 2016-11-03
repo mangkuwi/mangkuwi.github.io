@@ -1,2 +1,3 @@
-# mangkuwi.github.io
-hello world !
+#mangkuwi.github.io
+
+this is my first using github on hacktiv8
