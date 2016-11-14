@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="todolist.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+  </head>
+  <body>
+    <div class="header">
+      <h2>My To Do List</h2>
+    </div>
+    <form>
+      <label>
+        <input id="new-task-input" type="text" placeholder="add new todo list">
+      </label>
+      <button type="button" class=""id="add-task-button">
+        Add Task
+      </button>
+    </form>
+    <ul id="todolist-container"></ul>
+    <script type="text/template" id="list-item-template">
+    <li class="task">
+        <label>
+        <input class="checkbox" type="checkbox">
+        <span class="task-name"><!-- TASK_NAME --></span>
+      </label>
+    </li>
+    </script>
+    <script src="todolist.js"></script>
+  </body>
+</html>
