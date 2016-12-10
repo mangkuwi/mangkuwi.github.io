@@ -49,3 +49,7 @@ this is my first website on hacktiv8
 
 Saya mahasiswa semester 5 jurusan Game Application and Technology yang sedang mengambil cuti untuk ikut bootcamp Hacktiv8, tujuan saya ikut bootcamp ini untuk melatih kemampuan programing saya agar menjadi programer professional.
 Hobi saya main game terutama dota2 :D
+
+#Future Plans
+* Setelah lulus dari hacktiv8 saya ingin bekerja PartTime dan juga melanjutkan kuliah saya
+* Saya ingin membuat studio game yang membuat product game PC/Mobile/Console
